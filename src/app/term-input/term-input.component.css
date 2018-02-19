@@ -1,0 +1,12 @@
+input {
+  flex-grow: 1;
+  height: 100%;
+  background-color: #111111;
+  border-style: none;
+  font-size: 100%;
+  margin-left: 0.5em;
+}
+
+input:focus {
+  outline: none;
+}
