@@ -5,3 +5,7 @@ body, input {
   color: white;
   font-family: 'Share Tech Mono', monospace;
 }
+
+body {
+  padding-bottom: 4em;
+}

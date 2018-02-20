@@ -3,6 +3,7 @@ app-term-input {
   display: flex;
   flex-direction: row;
   position: fixed;
+  background-color: #111111;
   border-top-style: solid;
   border-width: 1px;
   border-color: grey;
@@ -10,4 +11,9 @@ app-term-input {
   width: 100%;
   padding: 0.5em;
   font-size: 150%;
+}
+
+app-term-output {
+  display: flex;
+  flex-direction: column;
 }
