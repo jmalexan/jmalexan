@@ -9,3 +9,7 @@ body, input {
 body {
   padding-bottom: 4em;
 }
+
+a {
+  color: white;
+}
