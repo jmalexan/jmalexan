@@ -53,6 +53,5 @@ export class TermService {
 
         2015: Enli - Summer Intern`;
     }
-    window.scrollTo(0, document.body.scrollHeight);
   }
 }
