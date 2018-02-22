@@ -15,9 +15,9 @@ export class TermService {
 
         This website is navigated by commands, type one in to get the info!
 
-        For links to my resume and LinkedIn, as well as a quick bio, run 'about'!
+        For links to my resume and LinkedIn, as well as a quick bio, run \`about\`!
 
-        For info about my personal projects, run 'projects'!
+        For info about my personal projects, run \`projects\`!
 
         \\>jonathan_`);
     } else if (cmd.toUpperCase() == "PROJECTS") {
@@ -45,7 +45,7 @@ export class TermService {
 
         [LinkedIn](https://www.linkedin.com/in/jonathan-a-62b610a1)
 
-        Employment
+        # Employment
 
         2017: Enli - Summer Intern
 

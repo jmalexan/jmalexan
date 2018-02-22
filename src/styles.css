@@ -13,3 +13,8 @@ body {
 a {
   color: white;
 }
+
+code {
+  background-color: #222222;
+  font-family: 'Share Tech Mono', monospace;
+}
