@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, ViewChild } from '@angular/core';
+
+import { TermInputComponent } from './term-input/term-input.component'
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  @ViewChild(TermInputComponent) terminput: TermInputComponent;
+
+  focusInput() {
+    this.terminput.focusInput();
+  }
 }

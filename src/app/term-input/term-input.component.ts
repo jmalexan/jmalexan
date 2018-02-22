@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, ViewChild, OnInit } from '@angular/core';
 import { TermService } from '../term.service';
 
 @Component({
@@ -7,6 +7,7 @@ import { TermService } from '../term.service';
   styleUrls: ['./term-input.component.css']
 })
 export class TermInputComponent implements OnInit {
+  @ViewChild("inputbox") inputBox: ElementRef;
 
   cmdInput: string = "";
 
@@ -18,6 +19,12 @@ export class TermInputComponent implements OnInit {
   executeCommand(cmd: string) {
     this.cmdInput = ""
     this.termService.execute(cmd);
+  }
+
+  focusInput() {
+    if (this.inputBox.nativeElement != document.activeElement) {
+      this.inputBox.nativeElement.focus();
+    }
   }
 
 }

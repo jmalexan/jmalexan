@@ -1,12 +1,27 @@
 input {
+  display: flex;
+  flex-direction: row;
+  margin-left: 0.5em;
   flex-grow: 1;
   height: 100%;
   background-color: #111111;
   border-style: none;
   font-size: 100%;
-  margin-left: 0.5em;
 }
 
 input:focus {
   outline: none;
+}
+
+.cmdhint {
+  text-decoration: none;
+  color: #444444;
+  font-size: 50%;
+  padding: 0.25em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 30px;
+  border-color: #444444;
 }

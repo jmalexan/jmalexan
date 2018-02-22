@@ -30,9 +30,7 @@ export class TermService {
 
         [Contrast](https://tms.ogpc.info/Games/Details/72d4ac5f-d37b-4ac2-a11a-495f4da06174) is a game created during the 2015-2016 session of the Oregon Game Project Challenge. Made using Unity and C#, it revolves around creating portals which alter objects' collision box to avoid obstacles and solve puzzles.
 
-        [Vision](https://tms.ogpc.info/Games/Details/fb0afbd3-095f-410f-8be5-ce41c38cccf2) was created during the 2016-2017 session of the Oregon Game Project Challenge. It is a game developed specifically for the HTC Vive, and utilizes the Vive's headtracking to use what the player can or cannot see to solve puzzles
-
-        I also made this cool logo animation for a name I plan on using at some point in the future.`);
+        [Vision](https://tms.ogpc.info/Games/Details/fb0afbd3-095f-410f-8be5-ce41c38cccf2) was created during the 2016-2017 session of the Oregon Game Project Challenge. It is a game developed specifically for the HTC Vive, and utilizes the Vive's headtracking to use what the player can or cannot see to solve puzzles`);
     } else if (cmd.toUpperCase() == "ABOUT") {
       this.displayText.push(`
         # Hey there!

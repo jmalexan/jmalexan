@@ -16,4 +16,5 @@ app-term-input {
 app-term-output {
   display: flex;
   flex-direction: column;
+  padding-bottom: 4em;
 }
