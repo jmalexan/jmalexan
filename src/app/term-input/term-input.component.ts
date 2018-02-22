@@ -22,9 +22,7 @@ export class TermInputComponent implements OnInit {
   }
 
   focusInput() {
-    if (this.inputBox.nativeElement != document.activeElement) {
-      this.inputBox.nativeElement.focus();
-    }
+    this.inputBox.nativeElement.focus();
   }
 
 }
