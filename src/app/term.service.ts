@@ -35,7 +35,7 @@ export class TermService {
       this.displayText[0] = `
         # Hey there!
 
-        My name's Jonathan, I'm currently attending Oregon State University for a degree in Computer Science. My passion is programming, it's what I want to go into and what I do as a hobby. My interests within programming pertain to interface design and front end programming, but I don't restrict myself to that, I explore as much as I can! I can't put my name on anything big yet, but I have my own personal or collaborative projects which you can see on my Projects page. I've had a few internships and jobs here or there, I'll list all those below. Thanks for reading!
+        My name's Jonathan, I'm currently attending Oregon State University for a degree in Computer Science. My passion is programming - it's what I want to go into and what I do as a hobby. My interests within programming pertain to interface design and front end programming, but I don't restrict myself to that, I explore as much as I can! I've listed all my personal and collaborative projects on my Projects page, please check them out! I've also listed my internship and job experience below. Thanks for reading!
 
         # Important Links
 
