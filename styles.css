@@ -39,7 +39,7 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
-    width: 600px;
+    width: 800px;
     max-width: 80%;
     height: 750;
 }
@@ -66,4 +66,8 @@ a {
 
 .messages .message-box:nth-child(5) {
     animation: slidein 2s ease 2s forwards;
+}
+
+.messages .message-box:nth-child(6) {
+    animation: slidein 2s ease 2.5s forwards;
 }
